@@ -1,9 +1,9 @@
 [package]
 name = "cargo-set-rust-version"
 description = "Update Cargo.toml rust-version to latest."
-homepage = "https://github.com/leighmcculloch/cargo-set-rust-version"
-repository = "https://github.com/leighmcculloch/cargo-set-rust-version"
-authors = ["Leigh McCulloch"]
+homepage = "https://github.com/stellar/cargo-set-rust-version"
+repository = "https://github.com/stellar/cargo-set-rust-version"
+authors = ["Stellar Development Foundation"]
 license = "Apache-2.0"
 version = "0.5.0"
 edition = "2021"
