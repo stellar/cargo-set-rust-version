@@ -10,6 +10,10 @@ permissions:
 jobs:
 
   publish:
+    permissions:
+      contents: read
+      id-token: write
     uses: stellar/actions/.github/workflows/rust-publish.yml@main
-    secrets:
-      CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+    with:
+      trusted-publishing: true
+      environment: crates-io
