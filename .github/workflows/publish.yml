@@ -14,6 +14,3 @@ jobs:
       contents: read
       id-token: write
     uses: stellar/actions/.github/workflows/rust-publish.yml@main
-    with:
-      trusted-publishing: true
-      environment: crates-io
